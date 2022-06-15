@@ -1,39 +1,39 @@
 #contact{
-    transition: transform 0.5s ease;
     transform: scale(1, 1);
-  }
-
+    transition: transform 0.5s ease;
+    animation: contact 350ms ease;
+}
+  
 li a#contact:hover{
-    transform: scale(2);
+    transform: scale(1.75);
   }
-
-#about{
-    transition: transform 0.5s ease;
-    transform: scale(1, 1);
-  }
-
-li a#about:hover{
-    transform: scale(2);
-  }
-
-#portfolio{
-    transition: transform 0.5s ease;
-    transform: scale(1, 1);
-  }
-
-li a#portfolio:hover{
-    transform: scale(2);
-  }
-
-
   li a#contact:active{
     font-size: 3em;
-}
+  }
 
-li a#about:active{
-    font-size: 3em;
-}
+  #about{
+    transform: scale(1, 1);
+    transition: transform 0.5s ease;
+  }
 
-li a#portfolio:active{
+  li a#about:active{
     font-size: 3em;
-}
+  }
+  
+  
+li a#about:hover{
+    transform: scale(1.75);
+  }
+
+  #portfolio{
+    transform: scale(1, 1);
+    transition: transform 0.5s ease;
+  }
+  
+  li a#portfolio:active{
+    font-size: 3em;
+  }
+  
+li a#portfolio:hover{
+    transform: scale(1.75);
+  }
