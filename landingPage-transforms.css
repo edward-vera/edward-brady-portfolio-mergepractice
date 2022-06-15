@@ -3,8 +3,6 @@
     transition: transform 0.5s ease;
     animation: contact 350ms ease;
 }
-
-  
   
 li a#contact:hover{
     transform: scale(1.75);
@@ -39,4 +37,3 @@ li a#about:hover{
 li a#portfolio:hover{
     transform: scale(1.75);
   }
-
